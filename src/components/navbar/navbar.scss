@@ -1,0 +1,33 @@
+.navbar {
+  height: 100px;
+  .wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+      li {
+        a {
+          img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            &:hover {
+              transform: scale(1.1, 1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

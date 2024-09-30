@@ -1,0 +1,56 @@
+.project {
+  section {
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      padding-top: 25px;
+      color: #ffa500;
+      border-bottom: 7px solid #d1d1d1;
+    }
+    .project {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 75%;
+      margin: auto;
+      margin-top: 50px;
+      .img {
+        width: 40%;
+        img {
+          width: 90%;
+          border-radius: 5px;
+          object-fit: cover;
+        }
+      }
+      .info {
+        width: 60%;
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          color: grey;
+          font-weight: 500;
+          padding-block: 20px;
+        }
+        button {
+          border: 1px solid #ffa500;
+          background-color: #ffa500;
+          color: #0c0c1d;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-weight: bold;
+          text-transform: capitalize;
+          cursor: pointer;
+          &:hover {
+            background-color: transparent;
+            color: #ffa500;
+          }
+        }
+      }
+    }
+  }
+}
